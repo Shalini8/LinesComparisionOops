@@ -1,13 +1,15 @@
 package com.lc;
+	public class Point {
+        double x, y;
 
-public class Point {
-		double x, y;
-		
-	public Point(double x, double y) {
-		this.x = x;
-		this.y = y;
-	}
-	}
+public Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+}
+}
+
+
+
 
 
 

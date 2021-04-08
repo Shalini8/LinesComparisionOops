@@ -16,8 +16,15 @@ public class Main {
 		if (l1.equals(l2)) {
 			System.out.println("both lines are equal");
 		} else {
-			System.out.println("both lines are unequal");
-			
+			//System.out.println("both lines are unequal");
+			if (l1.compare(l2)> 0) {
+				System.out.println("1st length is greater than 2nd ");
+			}
+			else {
+				System.out.println("1st is than 2nd");
+
+			}
+	
 		}
 	}
 }
